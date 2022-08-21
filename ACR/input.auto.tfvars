@@ -1,4 +1,4 @@
-keyvaul_rg = "aksdemo-rg"
+keyvault_rg = "aksdemo-rg"
 
 keyvault_name =  "aksdemocluster-kv"
 
