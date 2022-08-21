@@ -5,7 +5,7 @@ data "azurerm_key_vault" "azure_vault" {
 
 data "azurerm_key_vault_secret" "spn_id" {
   name = var.clientidkvsecret
-  key_vault_id = data.azurerm_key_vault.azure_vaulr.id
+  key_vault_id = data.azurerm_key_vault.azure_vault.id
  }
 
 data "azuread_service_principal" "aks_principal"{
