@@ -20,7 +20,7 @@ resource "azurerm_container_registry" "acr" {
   admin_enabled = true
 }
 
-resource "azurerm_role_assigment" "acrpull_role" {
+resource "azurerm_role_assignment" "acrpull_role" {
   scope = azurerm_container_registry.acr.ed
   role_definition_name = "AcrPull"
   principal_id = data.azuread_service_principal.aks_principal.id
