@@ -1,6 +1,6 @@
-keyvault_rg = "aksdemo-rg"
+keyvault_rg = "aksdemo-rg1983"
 
-keyvault_name =  "aksdemocluster-kv"
+keyvault_name =  "aksdemocluster-kv1983"
 
 clientidkvsecret = "spn-id"
 
