@@ -8,4 +8,4 @@ rg_name = "aksdemocluster-rg"
 
 rg_location = "australiaeast"
 
-acrname = "demoaksacr1223"
+acrname = "demoaksacr1983"
